@@ -1,5 +1,9 @@
 # TradingView Binance bot
 
+[![GPLv3 License](https://img.shields.io/badge/%20License-GPL%20v3-yellow?style=flat-square&labelColor=black)](https://opensource.org/licenses/)
+[![Python](https://img.shields.io/static/v1?label=&message=Python&color=blue&style=flat-square&logo=python&logoColor=white&logoWidth=17&labelColor=&link=)](https://www.python.org/)
+[![Heroku](https://img.shields.io/static/v1?label=&message=Heroku&color=42c5f5&style=flat-square&logo=heroku&logoColor=42c5f5&logoWidth=17&labelColor=black&link=)](https://www.heroku.com/)
+
 A trading bot that follows TradingView [alerts](https://www.tradingview.com/support/solutions/43000520149-about-tradingview-alerts/)
  executing them on you Binance account and providing you constant updates through a Telegram bot.
 
