@@ -6,6 +6,14 @@
 
 A trading bot that follows TradingView [alerts](https://www.tradingview.com/support/solutions/43000520149-about-tradingview-alerts/)
  executing them on you Binance account and providing you constant updates through a Telegram bot.
+ 
+###### Requirements
+
+* Python 3
+* Pip
+* Binance account
+* TradingView Pro account
+* Telegram account
 
 ### Local Setup
 Before pushing to heroku, let's test this in a local environment:
@@ -14,9 +22,9 @@ Before pushing to heroku, let's test this in a local environment:
 2. Activate your python venv and run `pip install -r requirements.txt` to install all the necessary dependencies.
 3. Setup your API keys in config.py:
 
-    - WEBHOOK_PASSPHRASE is the passphrase that you want to use for your payload.
-    - API_KEY and API_SECRET are your Binance API keys, fetch them [here](https://www.binance.com/en/support/faq/360002502072).
-    - USER_ID and TOKEN are for your Telegram bot, fetch the TOKEN by creating a new bot with [@BotFather](https://t.me/BotFather) and fetch the USER_ID by sending a message to [@RawDataBot](https://t.me/RawDataBot).
+    * WEBHOOK_PASSPHRASE is the passphrase that you want to use for your payload.
+    * API_KEY and API_SECRET are your Binance API keys, fetch them [here](https://www.binance.com/en/support/faq/360002502072).
+    * USER_ID and TOKEN are for your Telegram bot, fetch the TOKEN by creating a new bot with [@BotFather](https://t.me/BotFather) and fetch the USER_ID by sending a message to [@RawDataBot](https://t.me/RawDataBot).
 4. Run the app with `python app.py`.
 5. Test the `/webhook` endpoint with Insomnia or similar, passing it a
 sample request with [this](webhook.txt) format.
