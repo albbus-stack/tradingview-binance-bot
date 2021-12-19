@@ -38,10 +38,10 @@ simply following the heroku instructions, then open it annotating its URL.
 4. Insert `your-heroku-URL/webhook` as the webhook URL and your payload as the message as explained [here](https://www.tradingview.com/?solution=43000529348).
 5. Sit back and relax watching your Telegram bot notifications.
 
-#### Info
+### Info
 
 This bot supports a _double_order_ mode which consists in scalping the UP/DOWN leveraged indexes on Binance: selling a position will result in buying the opposite position, if you want to get the money out of this cycle you have to do it by selling manually.
 
-#### Notes
+###### Notes
 
 Use at your own risk, this involves your Binance account.
