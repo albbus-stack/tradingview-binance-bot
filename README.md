@@ -32,7 +32,7 @@ simply following the heroku instructions, then open it annotating its URL.
 
 #### Info
 
-This bot supports a "double_order" mode which consists in scalping the UP/DOWN leveraged indexes on Binance: selling a position will result in buying the opposite position, if you want to get the money out of this cycle you have to do it by selling manually.
+This bot supports a _double_order_ mode which consists in scalping the UP/DOWN leveraged indexes on Binance: selling a position will result in buying the opposite position, if you want to get the money out of this cycle you have to do it by selling manually.
 
 #### Notes
 
