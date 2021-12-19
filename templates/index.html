@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+      <style>
+          body { text-align: center; font-size: 0.9rem; font-family: 'Montserrat', sans-serif; color: white; background-color: #131722;} 
+          h1 { margin-top: 2vh; }
+          .tradingview-widget-container { width: 80vw; height: 85vh; position: relative; margin: auto auto auto auto; }
+      </style>
+  </head>
+
+  <body>
+    <h1>TradingView &nbsp;Binance &nbsp;Bot</h1>
+    <div class="tradingview-widget-container">
+      <div id="tradingview_c4508"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+      <script type="text/javascript">
+        new TradingView.widget(
+          {
+            "autosize":true,
+            "symbol": "BINANCE:BNBBUSD",
+            "interval": "15",
+            "timezone": "Europe/Rome",
+            "theme": "dark",
+            "style": "1",
+            "locale": "en",
+            "toolbar_bg": "#f1f3f6",
+            "enable_publishing": false,
+            "allow_symbol_change": true,
+            "studies": [
+              "AwesomeOscillator@tv-basicstudies",
+              "BB@tv-basicstudies"
+            ],
+            "container_id": "tradingview_c4508"
+          }
+        );
+      </script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+{
+    "passphrase": "your-passphrase-here",
+    "time": "{{interval}}",
+    "strategy": {
+        "symbol":"BNB BUSD",
+        "double_order":"True", or "False"
+        "order_action": "buy", or buyhalf"
+    }
+}
