@@ -8,7 +8,7 @@ A trading bot that follows TradingView [alerts](https://www.tradingview.com/supp
  executing them on you Binance account and providing you constant updates through a Telegram bot.
 
 ### Local Setup
-Before pushing this to heroku, let's test this in a local environment:
+Before pushing to heroku, let's test this in a local environment:
 
 1. Clone this repo.
 2. Activate your python venv and run `pip install -r requirements.txt` to install all the necessary dependencies.
