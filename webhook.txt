@@ -2,7 +2,7 @@
     "passphrase": "your-passphrase-here",
     "time": "{{interval}}",
     "strategy": {
-        "symbol":"BNB BUSD",
+        "symbol":"BNB BUSD", or whatever you want in the SYM1 <space> SYM2 format
         "double_order":"True", or "False"
         "order_action": "buy", or buyhalf"
     }
